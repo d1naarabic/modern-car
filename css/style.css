@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital,wght@1,400;1,500&family=Montserrat:ital@0;1&family=Raleway:ital,wght@1,500&family=Roboto:ital,wght@1,300;1,400&display=swap");
+
+:root {
+    --lato: "Lato", sans-serif;
+    --lora: "Lora", serif;
+    --monester: "Montserrat", sans-serif;
+    --real: "Raleway", sans-serif;
+    --roboto: "Roboto", sans-serif;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .header{
+    width: 100%;
+    height: 110vh;
+    background-image:url(/images/welcome-hero/welcome-banner.jpg) ;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+.overlay{
+    background-color: rgba(34, 41, 100, 0.452);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo h2 {
+    font-size: 1.9rem;
+    font-family: var(--roboto);
+    margin-top: 2rem;
+  }
+  .navbar a {
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+    margin-top: 2rem;
+    color: wheat;
+  }
+  .navbar  a:hover{
+    color: blue;
+  }
+
+  .banner__content{
+    text-align: center;
+    margin-top: 7rem;
+  }
+  .banner__content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .banner__content p{
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+   width: 80%;
+   margin: 0 auto;
+  }
+  .banner__content button{
+    padding: 18px 57px;
+    margin-top: 2rem;
+    border: none;
+    background-color: rgb(53, 92, 165);
+    font-family: var(--monester);
+  }
